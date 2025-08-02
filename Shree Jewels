@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shree Jewels</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #b89b5e;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #f6e5b9;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .products {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      width: 250px;
+      text-align: center;
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #aaa;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #b89b5e;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Shree Jewels</h1>
+    <p>Elegance in Every Piece</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Shree Jewels is a premium jewellery store offering handcrafted gold, diamond, and silver jewellery. Tradition meets style in every piece.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Collections</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200?text=Gold+Necklace" alt="Gold Necklace">
+        <h3>Gold Necklace</h3>
+        <p>22K Traditional Gold Necklace</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200?text=Diamond+Ring" alt="Diamond Ring">
+        <h3>Diamond Ring</h3>
+        <p>Elegant Diamond Ring with Rose Gold</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/250x200?text=Silver+Bracelet" alt="Silver Bracelet">
+        <h3>Silver Bracelet</h3>
+        <p>925 Sterling Silver with Antique Finish</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shree Jewels | Follow us on Instagram @shreejewels</p>
+  </footer>
+
+</body>
+</html>
